@@ -1,0 +1,12 @@
+# Исключаем временные файлы и папки
+target/
+build/
+node_modules/
+.git/
+logs/
+*.log
+
+.env
+secrets.txt
+
+.idea/

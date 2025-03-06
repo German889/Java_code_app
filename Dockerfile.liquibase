@@ -1,0 +1,4 @@
+FROM liquibase/liquibase:latest
+WORKDIR /liquibase/changelog
+COPY ./src/main/resources/db/changelog /app/changelog
+CMD ["--help"]
